@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<form>
+		<input type="text" name="display" class="largebutton no" id="display" value="">
+		<input type="button" class="smallbutton no" id="seven" value="7" onclick="DisplayNums(7)">
+		<input type="button" class="smallbutton no" id="eight" value="8" onclick="DisplayNums(8)">
+		<input type="button" class="smallbutton no" id="nine" value="9" onclick="DisplayNums(9)">
+		<input type="button" class="smallbutton op" id="divide" value="&#247" onclick="DivideNums()">
+		<input type="button" class="smallbutton no" id="four" value="4" onclick="DisplayNums(4)">
+		<input type="button" class="smallbutton no" id="five" value="5" onclick="DisplayNums(5)">
+		<input type="button" class="smallbutton no" id="six" value="6" onclick="DisplayNums(6)">
+		<input type="button" class="smallbutton op" id="multiply" value="X" onclick="MultiplyNums()">
+		<input type="button" class="smallbutton no" id="one" value="1" onclick="DisplayNums(1)">
+		<input type="button" class="smallbutton no" id="two" value="2" onclick="DisplayNums(2)">
+		<input type="button" class="smallbutton no" id="three" value="3" onclick="DisplayNums(3)">
+		<input type="button" class="smallbutton op" id="subtract" value="&#151" onclick="SubtractNums()">
+		<input type="button" class="smallbutton no" id="zero" value="0" onclick="DisplayNums(0)">
+		<input type="button" class="smallbutton no" id="clear" value="C" onclick="ClearButton()">
+		<input type="button" class="smallbutton no" id="equals" value="&#61" onclick="Calculate()">
+		<input type="button" class="smallbutton op" id="add" value="&#43" onclick="AddNums()">
+	</form>
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
